@@ -30,13 +30,13 @@ def get_dictionary_content(word):
 
     # Set up Chrome options
     chrome_options = Options()
-    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--headless=new")  # Updated headless mode syntax
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--window-size=1920,1080")
     chrome_options.add_argument(
-        "--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+        "--user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
     )
 
     try:
