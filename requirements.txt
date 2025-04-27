@@ -5,4 +5,8 @@ python-dotenv==1.0.1
 selenium==4.18.1
 webdriver-manager==4.0.1
 pandas==2.2.1
-duckduckgo-search==4.4.2 
+duckduckgo-search==4.4.2
+langchain
+openai
+gTTS
+pydub 
